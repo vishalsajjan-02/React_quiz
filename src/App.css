@@ -1,7 +1,31 @@
+/* General Styles */
+body {
+  background-color: #292b2e;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
+.App-header {
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.app-title {
+  color: #ffffff;
+  margin-top: 2rem;
+}
+
+/* Logo Animation */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,21 +37,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +44,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Quiz Styling */
+.container {
+  margin-top: 2rem;
+}
+
+h2 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  margin: 5px 0;
+}
+
+.option-button {
+  width: 100%;
+  margin: 5px 0;
+}
+
+.score-container {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+/* Additional Styling */
+.card {
+  background-color: #343a40;
+  border: 1px solid #495057;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-header {
+  background-color: #495057;
+  color: #ffffff;
+}
+
+.card-body {
+  color: #ffffff;
 }
